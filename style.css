@@ -25,14 +25,22 @@ html {
 /*CSS reset fim*/
 
 .header{
-    height: 10vh;
     width: 100vw;
-    background-color: greenyellow;
     display: inline-block;
 }
 
 .navBar{
-    line-height: 10vh;
+    background-color:lightgreen;
+}
+
+.navBar2{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.navBar, .navBar2{
+    height: 7.5vh;
+    line-height: 7.5vh;
     vertical-align: middle;
 }
 
@@ -41,9 +49,16 @@ html {
     float: right;
 }
 
+.navOption2, .namePok{
+    width: 30vw;
+    height: 7.5vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    text-align: center;
+}
+
 .navLogo{
-    height: 10vh;
-    padding: 2vh 1vw;
+    height: 7.5vh;
     float: left;
 }
 
@@ -51,7 +66,7 @@ html {
     height: 90vh;
     width: 100vw;
     text-align: center;
-    background-color: aquamarine;
+    background-color: cyan;
 }
 
 .cardOptions{
@@ -66,4 +81,57 @@ html {
     margin: 1vh 1vw;
     background-color: white;
     float: left;
+}
+
+.presentation{
+    background-color:   cornflowerblue;
+    height: 215px;
+    width: 215px;
+    border: solid 5px cornflowerblue;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.presentation:hover{
+    width: 450px;
+}
+
+.picture{
+    background-color: white;
+}
+
+.description{
+    width: 215px;
+    margin: 5px 5px 30px 5px;
+}
+
+.attribute{
+    width: 107.5px;
+    margin: 2.5px;
+}
+
+.picture, .attribute, .description{
+    float: left;
+}
+
+.presentation, .detail{
+    margin-top: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: inline-block;
+}
+
+.detail{
+    width: 400px;
+    border-radius: 1vw;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.table{
+    margin-top: 10px;
+}
+
+td{
+    width: 100px;
 }
