@@ -65,6 +65,7 @@ html {
 .content{
     height: 90vh;
     width: 100vw;
+    margin-top: -0.8vh;
     text-align: center;
     background-color: cyan;
 }
@@ -94,6 +95,8 @@ html {
 
 .presentation:hover{
     width: 450px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 .picture{
@@ -134,4 +137,33 @@ html {
 
 td{
     width: 100px;
+}
+
+.theForm{
+    width: 60vw;
+    margin: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 2vh;
+    background-color: goldenrod;
+    float: left;
+}
+
+.newAtt{
+    width: 60vw;
+    margin: 1vh 1vw;
+}
+
+.newAttDesc{
+    width: 10vw;
+    margin-left: 0vh 10vw;
+}
+
+.newAttVal{
+    width: 20vw;
+    margin-right: 0vh 10vw;
+}
+
+.imgCad{
+    width: 15vw;
 }
