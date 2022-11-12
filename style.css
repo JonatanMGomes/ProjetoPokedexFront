@@ -23,3 +23,25 @@ html {
     height: auto;
   }
 /*CSS reset fim*/
+
+.header{
+    height: 10vh;
+    width: 100vw;
+    background-color: greenyellow;
+    display: inline-block;
+}
+
+.navBar{
+    line-height: 10vh;
+    vertical-align: middle;
+}
+
+.navOption{
+    margin-right: 2vw;
+    float: right;
+}
+
+.navLogo{
+    padding: 2vh 1vw;
+    float: left;
+}
